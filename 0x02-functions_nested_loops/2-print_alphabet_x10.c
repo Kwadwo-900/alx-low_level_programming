@@ -3,7 +3,7 @@
  * alphabet_10x - prints the alpahbets in lower case 10 times
  */
 
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
 	char ch;
 	int i;
@@ -20,6 +20,6 @@ void print_alphabet_10x(void)
 			ch++;
 		}
 		i++;
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
