@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * alphabet_10x - prints the alpahbets in lower case 10 times
+ *print_ alphabet_x10 - prints the alpahbets in lower case 10 times
  */
 
 void print_alphabet_x10(void)
@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 	{
 		ch = 'a';
 
-		while (ch <= 'a')
+		while (ch <= 'z')
 		{
 			_putchar(ch);
 			ch++;
