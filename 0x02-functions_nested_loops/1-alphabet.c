@@ -1,8 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * prints alphabets
+ * print_alphabet - prints alphabets to the stdout
+ * main - working with alphabets
+ * Return: 0 when successful
  */
 
 int main(void)
@@ -10,17 +11,17 @@ int main(void)
 	void print_alphabet(void)
 	{
 		char ch;
-		
+
 		ch = 'a';
 
-		while(ch <= 'z')
+		while (ch <= 'z')
 		{
-			putchar(ch);
+			_putchar(ch);
 			ch++;
 		}
-
 	}
-	putchar('\n');
+	_putchar('\n');
+	return (0);
 }
 
 
