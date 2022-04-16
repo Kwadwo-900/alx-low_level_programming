@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - print a diagonal line using /
- * @n: character specifying how long the diagonal 
+ * @n: character specifying how long the diagonal
  * should be
  * Return: 1 on success, 0 otherwise
  */
@@ -12,7 +12,7 @@ void print_diagonal(int n)
 	{
 		_putchar('\n');
 	}
-	else 
+	else
 	{
 		int i, j;
 
