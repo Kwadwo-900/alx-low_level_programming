@@ -3,6 +3,7 @@
 /**
  * rev_string -everses a string
  * @s: string to be reversed
+ * Returnn: 0 on success, 1 otherwise
  */
 
 void rev_string(char *s)
@@ -13,7 +14,7 @@ void rev_string(char *s)
 	count = 0;
 	len = 0;
 
-	while (s[len] != '\0')
+	while (s[count] != '\0')
 	{
 		count++;
 	}
